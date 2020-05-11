@@ -1,3 +1,3 @@
 git clone --single-branch -b master https://github.com/Notebook-Factory/PhaseUnwrapping_book.git
+chmod -R 777 PhaseUnwrapping_book
 cd PhaseUnwrapping_book
-chmod -R 777 $HOME/work/PhaseUnwrapping_book
