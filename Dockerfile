@@ -31,7 +31,7 @@ RUN apt-get update && \
 RUN julia -e 'import Pkg; Pkg.add("FFTW"); Pkg.add("GZip"); Pkg.add("PyPlot"); Pkg.precompile();'
 
 RUN cd $HOME/work;\
-    pip install --upgrade pip; \
+    pip install --upgrade pip;  \
     pip install sos\
                 sos-notebook \
                 sos-python \
