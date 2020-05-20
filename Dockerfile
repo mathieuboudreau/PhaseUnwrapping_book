@@ -39,7 +39,7 @@ RUN cd $HOME/work;\
                 sos-matlab \
                 sos-ruby \
                 sos-sas \
-                sos-julia \
+                git+https://github.com/vatlab/sos-julia \
                 sos-javascript\
                 sos-r\
                 scipy \
