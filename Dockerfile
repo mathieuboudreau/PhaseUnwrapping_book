@@ -39,7 +39,6 @@ RUN cd $HOME/work;\
                 sos-matlab \
                 sos-ruby \
                 sos-sas \
-                sos-julia \
                 sos-javascript\
                 sos-r\
                 scipy \
@@ -53,6 +52,7 @@ RUN cd $HOME/work;\
                 ipywidgets \
                 nibabel \
                 nbconvert; \
+    pip install git+https://github.com/vatlab/sos-julia; \
     python -m sos_notebook.install;\
     git clone --single-branch -b master https://github.com/Notebook-Factory/PhaseUnwrapping_book.git;    \
     cd PhaseUnwrapping_book;\
